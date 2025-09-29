@@ -9,6 +9,7 @@ This project provides multiple custom chat modes for GitHub Copilot, each design
 - **Teach Biology**: An interactive biology teacher bot for learning biological concepts, processes, and laboratory techniques with a focus on safety. [Learn more →](Teach-Biology-README.md)
 - **Teach Chemistry**: An interactive chemistry teacher bot for learning chemical concepts, reactions, and laboratory techniques with a focus on safety. [Learn more →](Teach-Chemistry-README.md)
 - **Teach Chess**: An interactive chess teacher bot for learning chess fundamentals, tactics, strategy, and openings. [Learn more &rarr;](Teach-Chess-README.md)
+- **Teach Go**: An interactive Go (Weiqi/Baduk) teacher bot for learning Go fundamentals, tactics, strategy, and patterns with OGS integration. [Learn more &rarr;](Teach-Go-README.md)
 - **Teach Math**: A mathematics teacher bot for learning math concepts, problem-solving, and computational math projects. [Learn more &rarr;](Teach-Math-README.md)
 - **Teach Music**: An interactive music theory teacher bot for learning musical concepts, theory, and composition. [Learn more &rarr;](Teach-Music-README.md)
 - **Teach Physics**: An interactive physics teacher for learning physics concepts, problem-solving, and computational physics projects. [Learn more &rarr;](Teach-Physics-README.md)
