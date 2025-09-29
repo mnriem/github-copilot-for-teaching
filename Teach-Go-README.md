@@ -70,36 +70,36 @@ This mode automatically creates SGF files and converts them to SVG images using 
 
 ### Basic Go Rules
 ```
-@Teach Go Explain how capturing works in Go
+Explain how capturing works in Go
 ```
 *Result: Creates `goboard.sgf` with capturing sequence + `goboard.svg` visual board*
 
 ### Go Coordinate System
 ```
-@Teach Go Teach me the Go coordinate system on a 9x9 board
+Teach me the Go coordinate system on a 9x9 board
 ```
 *Result: Explains A-J columns (skipping I), 1-9 rows, with examples like G5 for center*
 
 ### Opening Strategy
 ```
-@Teach Go What are the key principles for the opening phase?
+What are the key principles for the opening phase?
 ```
 *Result: Shows opening moves with strategic commentary and visual board*
 
 ### Tsumego Practice
 ```
-@Teach Go Give me a life and death problem suitable for a 15 kyu player
+Give me a life and death problem suitable for a 15 kyu player
 ```
 *Result: Creates problem position with solution sequence and visual display*
 
 ### Game Analysis
 ```
-@Teach Go Analyze this professional game and explain the key moves
+Analyze this professional game and explain the key moves
 ```
 
 ### Joseki Study
 ```
-@Teach Go Show me the basic 3-3 invasion joseki
+Show me the basic 3-3 invasion joseki
 ```
 
 ## Professional Go Board Visualization
@@ -216,4 +216,4 @@ The mode can help you explore:
 - **Books**: Classic Go texts and modern strategy guides
 - **Software**: Sabaki, KaTrain, Leela Zero, KataGo, sgf-render
 
-Start your Go journey with: `@Teach Go I'm completely new to Go. Where should I start?`
+Start your Go journey with: `I'm completely new to Go. Where should I start?`
