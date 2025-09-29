@@ -6,7 +6,8 @@
 
 This project provides multiple custom chat modes for GitHub Copilot, each designed to help you learn and practice different skills:
 
-- **Teach Chemistry**: An interactive chemistry teacher bot for learning chemical concepts, reactions, and laboratory techniques with a focus on safety. [Learn more &rarr;](Teach-Chemistry-README.md)
+- **Teach Biology**: An interactive biology teacher bot for learning biological concepts, processes, and laboratory techniques with a focus on safety. [Learn more →](Teach-Biology-README.md)
+- **Teach Chemistry**: An interactive chemistry teacher bot for learning chemical concepts, reactions, and laboratory techniques with a focus on safety. [Learn more →](Teach-Chemistry-README.md)
 - **Teach Chess**: An interactive chess teacher bot for learning chess fundamentals, tactics, strategy, and openings. [Learn more &rarr;](Teach-Chess-README.md)
 - **Teach Math**: A mathematics teacher bot for learning math concepts, problem-solving, and computational math projects. [Learn more &rarr;](Teach-Math-README.md)
 - **Teach Music**: An interactive music theory teacher bot for learning musical concepts, theory, and composition. [Learn more &rarr;](Teach-Music-README.md)
@@ -30,8 +31,8 @@ Here are 10 example prompts to help you get started:
 3. How do I write a "Hello, World!" program in Python? *(Teach Programming)*
 4. What is Newton's second law? *(Teach Physics)*
 5. Show me the Lewis structure for water. *(Teach Chemistry)*
-6. What are the notes in a C major scale? *(Teach Music)*
-7. Give me a simple chess puzzle to solve. *(Teach Chess)*
+6. What are the main parts of a plant cell? *(Teach Biology)*
+7. What are the notes in a C major scale? *(Teach Music)*
 8. Create a lesson plan on the Pythagorean theorem for 8th grade. *(Teach Math, lesson planning)*
 9. Adapt the explanation of ionic and covalent bonds for a 5th grader. *(Teach Chemistry, individualized/grade level)*
 10. Test my knowledge of algebra with 3 questions at a 9th grade level. *(Teach Math, grade consistency)*
@@ -89,23 +90,6 @@ After installation, you can activate any chat mode:
 2. **Command Palette**: Use "Chat: Switch Chat Mode" and select your desired mode
 3. **Automatic Discovery**: All modes are available when this repository is open
 
-## More Information
-
-
-See the individual READMEs for each mode for detailed features, example prompts, and customization options:
-
-- [Teach Programming Chat Mode](Teach-Programming-README.md)
-- [Teach Math Chat Mode](Teach-Math-README.md)
-- [Teach Physics Chat Mode](Teach-Physics-README.md)
-
-*Note: Make sure the correct teaching mode is selected in the chat mode dropdown before asking your questions.*
-
-The teaching mode is configured with the following capabilities:
-
-- **Web Search**: Finds up-to-date programming resources and documentation
-- **Code Execution**: Runs code examples to demonstrate concepts in real-time
-- **File Reader**: Analyzes code files and provides detailed explanations
-
 ## Teaching Modes Available
 
 ### 1. Explanation Mode (Default)
@@ -122,17 +106,9 @@ The teaching mode is configured with the following capabilities:
 - Explanations for each step and code component
 - Encourages best practices
 
-
 ## Customization & Troubleshooting
 
-
-Customization and troubleshooting instructions are specific to each chat mode. See the README for your selected mode:
-
-- [Teach Programming Chat Mode](Teach-Programming-README.md#customization)
-- [Teach Math Chat Mode](Teach-Math-README.md#customization)
-- [Teach Physics Chat Mode](Teach-Physics-README.md#customization)
-
-
+Customization and troubleshooting instructions are specific to each chat mode. See the README for your selected mode.
 
 ## Contributing
 
@@ -157,4 +133,4 @@ For issues or questions:
 
 **Happy Learning! 🚀**
 
-Transform your learning journey with personalized, intelligent instruction in programming, math, physics, chemistry, and more—powered by GitHub Copilot's multiple chat modes.
+Transform your learning journey with personalized, intelligent instruction in programming, math, physics, chemistry, biology, and more—powered by GitHub Copilot's multiple chat modes.
