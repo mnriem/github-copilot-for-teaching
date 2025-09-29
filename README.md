@@ -1,14 +1,18 @@
-# GitHub Copilot Teaching Mode
+# GitHub Copilot Teaching Modes
 
-A custom chat mode for GitHub Copilot that transforms it into an intelligent programming teacher. This mode provides personalized explanations, interactive learning experiences, and step-by-step guidance for programming concepts.
+This project provides multiple custom chat modes for GitHub Copilot, each designed to help you learn and practice different skills:
+
+- **Teach Math**: A mathematics teacher bot for learning math concepts, problem-solving, and computational math projects. [Learn more &rarr;](Teach-Math-README.md)
+- **Teach Physics**: An interactive physics teacher for learning physics concepts, problem-solving, and computational physics projects. [Learn more &rarr;](Teach-Physics-README.md)
+- **Teach Programming**: An interactive programming teacher for learning coding concepts, best practices, and hands-on projects. [Learn more &rarr;](Teach-Programming-README.md)
 
 ## Features
 
-- **Adaptive Teaching**: Automatically adjusts explanations based on your knowledge level
-- **Interactive Learning**: Supports quiz mode and guided project building
-- **Multi-Tool Integration**: Uses web search, code execution, and file reading capabilities
-- **Step-by-Step Guidance**: Breaks down complex programming concepts into digestible parts
-- **Hands-On Practice**: Suggests coding exercises and real projects
+All chat modes offer:
+- **Adaptive Explanations**: Adjust to your knowledge level
+- **Quiz Mode**: Test your understanding interactively
+- **Project Mode**: Guided, hands-on learning
+- **Multi-Tool Integration**: Web search, code execution, file reading
 
 ## Installation
 
@@ -19,7 +23,7 @@ A custom chat mode for GitHub Copilot that transforms it into an intelligent pro
 - VS Code with GitHub Copilot extension installed
 - Access to GitHub Copilot Chat
 
-### Installing the Teaching Chat Mode
+### Installing Custom Chat Modes
 
 1. **Clone or Download this Repository**
    ```bash
@@ -27,69 +31,52 @@ A custom chat mode for GitHub Copilot that transforms it into an intelligent pro
    cd github-copilot-for-teaching
    ```
 
-2. **Install the Chat Mode**
-   
-   VS Code supports custom chat modes through `.chatmode.md` files. This repository is configured to automatically expose the chat mode:
+2. **Install the Chat Modes**
+
+   VS Code supports custom chat modes through `.chatmode.md` files. This repository is configured to automatically expose all available chat modes:
 
    **Option A: Use This Repository Directly (Recommended)**
-   - The chat mode is automatically available when you have this repository open in VS Code
-   - VS Code automatically discovers chat modes in the `.github/chatmodes/` directory
+   - All chat modes in this repository are automatically available when you have it open in VS Code
+   - VS Code discovers all modes in the `.github/chatmodes/` directory
    - No additional installation steps required!
 
    **Option B: Copy to Your Own Project (Workspace-level)**
-   - Copy the `.github/chatmodes/` directory to your own repository
-   - Include the `Teach Programming.chatmode.md` file in the same structure
-   - The chat mode will be available when working in that project
+   - Copy the entire `.github/chatmodes/` directory to your own repository
+   - All chat modes (`*.chatmode.md` files) in that directory will be available in your project
 
    **Option C: User Profile Installation (Cross-workspace)**
-   - Copy the `Teach Programming.chatmode.md` file to your VS Code user profile folder
-   - This makes the chat mode available across all your workspaces
+   - Copy any `.chatmode.md` files you want to your VS Code user profile folder
+   - This makes those chat modes available across all your workspaces
    - Use the Command Palette: "Chat: New Mode File" and select "User profile"
 
 3. **Restart VS Code (if needed)**
-   - If you copied files manually, restart VS Code to ensure the new chat mode is loaded
-   - For Option A, the mode should be immediately available when opening this repository
+   - If you copied files manually, restart VS Code to ensure the new chat modes are loaded
+   - For Option A, modes should be immediately available when opening this repository
 
 4. **Verify Installation**
    - Open GitHub Copilot Chat (Ctrl+Shift+I / Cmd+Shift+I on macOS, Ctrl+Alt+I on Windows/Linux)
    - Click the chat mode dropdown at the top of the Chat view
-   - "Teach Programming" should appear in the list of available modes
-   - Select it to activate the teaching mode
+   - All installed chat modes should appear in the list
+   - Select your desired mode to activate it
 
 ## Usage
 
-### Activating the Teaching Mode
+After installation, you can activate any chat mode:
 
-Once installed, you can activate the teaching mode:
+1. **Mode Dropdown**: Open the Chat view and select your desired mode (e.g., "Teach Programming", "Teach Math", or "Teach Physics") from the chat mode dropdown
+2. **Command Palette**: Use "Chat: Switch Chat Mode" and select your desired mode
+3. **Automatic Discovery**: All modes are available when this repository is open
 
-1. **Mode Dropdown**: Open the Chat view and select "Teach Programming" from the chat mode dropdown
-2. **Command Palette**: Use "Chat: Switch Chat Mode" and select "Teach Programming"
-3. **Automatic Discovery**: The mode is automatically available when you have this repository open
+## More Information
 
-### Example Interactions
 
-**Learning a New Concept:**
-```
-Can you explain what recursion is and show me some examples?
-```
+See the individual READMEs for each mode for detailed features, example prompts, and customization options:
 
-**Quiz Mode:**
-```
-I want to test my understanding of Python functions. Can you quiz me?
-```
+- [Teach Programming Chat Mode](Teach-Programming-README.md)
+- [Teach Math Chat Mode](Teach-Math-README.md)
+- [Teach Physics Chat Mode](Teach-Physics-README.md)
 
-**Project Mode:**
-```
-Help me build a simple web scraper step by step
-```
-
-**Code Review and Learning:**
-```
-Can you review this code and explain what it does?
-[paste your code]
-```
-
-*Note: Make sure "Teach Programming" mode is selected in the chat mode dropdown before asking these questions.*
+*Note: Make sure the correct teaching mode is selected in the chat mode dropdown before asking your questions.*
 
 ## Chat Mode Configuration
 
@@ -102,56 +89,30 @@ The teaching mode is configured with the following capabilities:
 ## Teaching Modes Available
 
 ### 1. Explanation Mode (Default)
-- Provides clear, level-appropriate explanations
+- Clear, level-appropriate explanations
 - Uses examples and analogies
 - Adapts to your current knowledge level
 
 ### 2. Quiz Mode
-- Tests your understanding with interactive questions
-- Provides immediate feedback
-- Offers additional explanations for incorrect answers
+- Interactive questions to test your understanding
+- Immediate feedback and explanations
 
 ### 3. Project Mode
-- Guides you through building real projects
-- Explains each step and code component
+- Step-by-step project building
+- Explanations for each step and code component
 - Encourages best practices
 
-## Customization
 
-You can customize the teaching mode by editing the `Teach Programming.chatmode.md` file in the `.github/chatmodes/` directory:
+## Customization & Troubleshooting
 
-1. **Modify the Description**: Change the teaching style or focus areas
-2. **Adjust Tools**: Add or remove available tools based on your needs
-3. **Update Instructions**: Modify the teaching approach or add specific subjects
 
-Example customization for web development focus:
-```markdown
----
-description: 'A specialized web development teacher that focuses on HTML, CSS, JavaScript, and modern frameworks...'
-tools: [
-    "web-search",
-    "code-execution",
-    "file-reader"
-]
----
-```
+Customization and troubleshooting instructions are specific to each chat mode. See the README for your selected mode:
 
-## Troubleshooting
+- [Teach Programming Chat Mode](Teach-Programming-README.md#customization)
+- [Teach Math Chat Mode](Teach-Math-README.md#customization)
+- [Teach Physics Chat Mode](Teach-Physics-README.md#customization)
 
-### Chat Mode Not Appearing
-- Ensure you're using VS Code version 1.101 or later
-- Check the chat mode dropdown in the Chat view - custom modes appear there
-- For workspace modes: ensure the `.github/chatmodes/` directory exists with the `.chatmode.md` file
-- For user profile modes: use "Chat: Configure Chat Modes" to verify installation
-- Restart VS Code if you just added the chat mode file
 
-### Limited Functionality
-- Verify your GitHub Copilot subscription includes chat features
-- Check that all required tools are enabled in your Copilot settings
-
-### Performance Issues
-- Some features require internet connectivity for web search
-- Code execution depends on your local development environment
 
 ## Contributing
 

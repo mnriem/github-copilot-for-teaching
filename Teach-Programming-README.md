@@ -1,0 +1,59 @@
+# Teach Programming Chat Mode
+
+The **Teach Programming** chat mode transforms GitHub Copilot into an interactive programming teacher. It provides clear explanations, code examples, and step-by-step guidance to help users learn programming concepts and solve coding problems.
+
+## Key Features
+- **Adaptive Explanations**: Adjusts to your knowledge level
+- **Code Examples**: Demonstrates concepts with runnable code
+- **Quiz Mode**: Test your understanding with interactive questions
+- **Project Mode**: Guides you through building small projects step-by-step
+- **Multi-Tool Integration**: Uses web search, code execution, and file reading
+
+## How It Works
+- Ask questions about programming concepts, languages, or best practices
+- Request code reviews or explanations of code snippets
+- Try quiz mode to test your knowledge
+- Use project mode for guided, hands-on learning
+
+## Example Prompts
+- "Can you explain what recursion is and show me some examples?"
+- "I want to test my understanding of Python functions. Can you quiz me?"
+- "Help me build a simple web scraper step by step."
+- "Can you review this code and explain what it does?"
+
+
+## Customization
+You can customize this mode by editing `.github/chatmodes/Teach Programming.chatmode.md`:
+
+1. **Modify the Description**: Change the teaching style or focus areas
+2. **Adjust Tools**: Add or remove available tools based on your needs
+3. **Update Instructions**: Modify the teaching approach or add specific subjects
+
+Example customization for web development focus:
+```markdown
+---
+description: 'A specialized web development teacher that focuses on HTML, CSS, JavaScript, and modern frameworks...'
+tools: [
+	"web-search",
+	"code-execution",
+	"file-reader"
+]
+---
+```
+
+## Troubleshooting
+
+### Chat Mode Not Appearing
+- Ensure you're using VS Code version 1.101 or later
+- Check the chat mode dropdown in the Chat view - custom modes appear there
+- For workspace modes: ensure the `.github/chatmodes/` directory exists with the `.chatmode.md` file
+- For user profile modes: use "Chat: Configure Chat Modes" to verify installation
+- Restart VS Code if you just added the chat mode file
+
+### Limited Functionality
+- Verify your GitHub Copilot subscription includes chat features
+- Check that all required tools are enabled in your Copilot settings
+
+### Performance Issues
+- Some features require internet connectivity for web search
+- Code execution depends on your local development environment
