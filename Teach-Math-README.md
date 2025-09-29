@@ -6,23 +6,46 @@ The **Teach Math** chat mode turns GitHub Copilot into a mathematics teacher bot
 
 ## Key Features
 - **Adaptive Explanations**: Adjusts to your math knowledge level
-- **Worked Examples**: Step-by-step solutions and explanations
+- **Worked Examples**: Step-by-step solutions and explanations with proper mathematical notation
 - **Quiz Mode**: Interactive questions to test your understanding
-- **Problem-Solving Mode**: Guided solutions to math problems
-- **Project Mode**: Build programming projects that apply math concepts
-- **Multi-Tool Integration**: Web search, code execution, file reading
+- **Problem-Solving Mode**: Guided solutions to mathematical problems
+- **Comprehensive Project Mode**: Build complete programming projects combining math concepts with computational implementation
+- **Advanced Tool Integration**: Web search, code execution, file reading for mathematical resources and visualization
 
 ## How It Works
 - Ask about mathematical concepts, notation, or problem-solving strategies
-- Request worked examples or visualizations
-- Try quiz mode to test your math skills
-- Use project mode for hands-on computational math projects
+- Request worked examples, visualizations, or computational demonstrations
+- Try quiz mode to test your math skills with detailed feedback
+- Use problem-solving mode for step-by-step guided solutions
+- Explore project mode for comprehensive programming projects that combine mathematical concepts with computational implementation
+- Get personalized instruction with proper mathematical notation and LaTeX formatting
+
+## Project Mode Features
+The comprehensive project mode creates complete programming projects that translate mathematical concepts into computational algorithms:
+
+- **Multi-Language Support**: Python with NumPy/Matplotlib/SciPy, JavaScript with D3.js, R, MATLAB, Julia, and more
+- **Mathematical Modeling**: Transform abstract concepts into computational algorithms and data structures
+- **Interactive Visualizations**: Dynamic graphs, plots, animations, and interactive demonstrations
+- **Comprehensive Project Types**:
+  - Calculus visualizations (function plotting, derivative/integral animations)
+  - Statistical analysis and data visualization projects
+  - Linear algebra computations and geometric transformations
+  - Numerical methods and algorithm implementations
+  - Probability simulations and Monte Carlo methods
+  - Optimization problem solvers
+  - Mathematical game theory simulations
+  - Fractal generators and mathematical art
+  - Financial mathematics models
+  - Scientific computing applications
 
 ## Example Prompts
-- "Can you explain the chain rule in calculus with an example?"
-- "Quiz me on probability basics."
-- "Help me build a Python simulation for rolling dice."
-- "Walk me through solving this equation step by step."
+- "Can you explain the chain rule in calculus with a step-by-step example?"
+- "Quiz me on probability basics with detailed feedback."
+- "Help me build a Python simulation for rolling dice with statistical analysis."
+- "Create a visualization project for linear transformations in 2D space."
+- "Walk me through solving this differential equation step by step."
+- "Build a Monte Carlo simulation to estimate pi."
+- "Show me how to implement the Newton-Raphson method computationally."
 
 ## Customization
 You can customize this mode by editing `.github/chatmodes/Teach Math.chatmode.md`:

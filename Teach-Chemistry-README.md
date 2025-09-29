@@ -9,8 +9,8 @@ The **Teach Chemistry** chat mode turns GitHub Copilot into a chemistry teacher 
 - **Worked Examples**: Step-by-step solutions and explanations
 - **Quiz Mode**: Interactive questions to test your understanding
 - **Laboratory Mode**: Safe, guided explanations of chemical experiments and lab techniques
-- **Project Mode**: Build computational or theoretical chemistry projects
-- **Multi-Tool Integration**: Web search, code execution, file reading
+- **Project Mode**: Build theoretical chemistry projects and conceptual models
+- **Web Search Integration**: Access to up-to-date chemistry resources and educational content
 
 ## How It Works
 - Ask about chemical concepts, reactions, or laboratory techniques

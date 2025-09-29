@@ -6,26 +6,47 @@ The **Teach Chess** chat mode turns GitHub Copilot into a chess teacher bot. It 
 
 ## Key Features
 - **Adaptive Explanations**: Adjusts to your chess knowledge level
-- **Worked Examples**: Step-by-step solutions and explanations
-- **Quiz Mode**: Interactive questions to test your understanding
-- **Game Mode**: Play through chess positions and games with move-by-move guidance
-- **Multi-Tool Integration**: Web search, chessboard visualization (with Chess Viewer extension)
+- **Interactive Learning Modes**: Puzzle mode for tactics and game analysis mode for studying complete games
+- **Visual Chess Boards**: Advanced chessboard visualization with FEN notation, PGN format, and interactive features
+- **Comprehensive Tool Integration**: Web search, extensions management, file editing, and workspace tools
+- **Personalized Instruction**: Step-by-step guidance tailored to your chess understanding
 
 ## How It Works
 - Ask about chess rules, tactics, openings, or strategy
 - Request worked examples or analysis of positions
-- Try quiz mode to test your chess knowledge
-- Use game mode to play through positions or full games
+- Try puzzle mode to solve tactical problems and find the best moves
+- Use game analysis mode to study chess games with detailed explanations
+- Explore topics from basic rules to advanced strategic concepts
+- Get personalized instruction adapted to your chess level
 
 ## Chess Visualization
 - This mode works best with the [Chess Viewer VSCode extension](https://marketplace.visualstudio.com/items?itemName=eronnen.vscode-markdown-chess)
-- Chess positions and moves are shown in `game.md` using chess/pgn code blocks for interactive boards
+- Chess positions and moves are shown in `chessboard.md` using advanced chess notation features:
+  - **FEN Notation**: For specific board positions
+  - **PGN Format**: For complete games with annotations
+  - **Visual Enhancements**: Arrows, highlighted squares, custom orientation
+  - **Interactive Boards**: Click-through game analysis with move-by-move explanations
 
 ## Example Prompts
-- "Can you explain the Sicilian Defense?"
-- "Quiz me on basic checkmates."
-- "Help me analyze this position."
-- "Walk me through a famous chess game."
+- "Can you explain the Sicilian Defense opening principles?"
+- "Show me tactical patterns like pins and forks."
+- "Help me analyze this position for strategic concepts."
+- "Walk me through a famous chess game with annotations."
+- "Teach me basic endgame techniques."
+- "Create a puzzle about discovered attacks."
+- "Explain pawn structure and its importance."
+
+## Topics Covered
+This chess teacher covers a comprehensive range of topics including:
+
+- **Fundamentals**: Basic chess rules, piece movement, and chess notation (algebraic notation)
+- **Opening Principles**: Development, center control, king safety, and popular opening systems
+- **Tactical Patterns**: Pins, forks, skewers, discovered attacks, double attacks, and combinations
+- **Strategic Concepts**: Pawn structure, piece activity, king safety, weak squares, and positional play
+- **Endgame Fundamentals**: Basic checkmates, pawn endings, and essential endgame techniques
+- **Game Analysis**: Position evaluation, planning, and studying master games
+- **Chess History**: Famous games, legendary players, and important chess developments
+- **Tournament Preparation**: Time management, opening preparation, and competitive strategies
 
 ## Customization
 You can customize this mode by editing `.github/chatmodes/Teach Chess.chatmode.md`:

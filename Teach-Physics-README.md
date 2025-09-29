@@ -6,23 +6,48 @@ The **Teach Physics** chat mode turns GitHub Copilot into an interactive physics
 
 ## Key Features
 - **Adaptive Explanations**: Adjusts to your physics knowledge level
-- **Worked Examples**: Step-by-step solutions and explanations
-- **Quiz Mode**: Interactive questions to test your understanding
-- **Problem-Solving Mode**: Guided solutions to physics problems
-- **Project Mode**: Build computational projects that apply physics concepts
-- **Multi-Tool Integration**: Web search, code execution, file reading
+- **Worked Examples**: Step-by-step solutions with proper physics notation and mathematical formulas
+- **Quiz Mode**: Interactive questions to test your understanding with detailed feedback
+- **Problem-Solving Mode**: Guided solutions to physics problems with clear reasoning
+- **Comprehensive Project Mode**: Build complete computational physics projects with simulations and visualizations
+- **Advanced Tool Integration**: Web search, code execution, file reading for physics resources and computational modeling
 
 ## How It Works
 - Ask about physics concepts, laws, or problem-solving strategies
-- Request worked examples, visualizations, or simulations
-- Try quiz mode to test your physics skills
-- Use project mode for hands-on computational physics projects
+- Request worked examples, visualizations, simulations, or real-world applications
+- Try quiz mode to test your physics skills with detailed feedback
+- Use problem-solving mode for step-by-step guided solutions with clear reasoning
+- Explore project mode for comprehensive computational physics projects with advanced simulations
+- Get personalized instruction with proper physics notation, mathematical formulas, and LaTeX formatting
+
+## Project Mode Features
+The comprehensive project mode creates complete programming projects that translate physical laws into computational simulations:
+
+- **Multi-Language Support**: Python with NumPy/Matplotlib/SciPy/VPython, JavaScript with D3.js/Three.js, MATLAB, Julia, C++ for performance-critical simulations
+- **Physics Modeling**: Transform physical laws and phenomena into computational algorithms and numerical simulations
+- **Advanced Visualizations**: Dynamic animations, 3D simulations, vector field plots, and interactive demonstrations
+- **Comprehensive Project Types**:
+  - Classical mechanics simulations (projectile motion, orbital dynamics, collisions)
+  - Wave phenomena and oscillations (harmonic motion, wave interference, standing waves)
+  - Electromagnetic field visualizations and simulations
+  - Thermodynamics and statistical mechanics models
+  - Quantum mechanics visualizations (wave functions, probability distributions)
+  - Fluid dynamics and computational fluid dynamics (CFD)
+  - Optics simulations (ray tracing, diffraction, interference)
+  - Relativity demonstrations and spacetime visualizations
+  - Particle physics simulations and data analysis
+  - Astrophysics models (stellar evolution, galaxy dynamics)
+  - Solid state physics and material science simulations
+  - Climate and atmospheric physics models
 
 ## Example Prompts
-- "Can you explain Newton's second law with an example?"
-- "Quiz me on basic kinematics."
-- "Help me build a Python simulation for projectile motion."
-- "Walk me through solving this circuit problem step by step."
+- "Can you explain Newton's second law with a detailed example and simulation?"
+- "Quiz me on basic kinematics with step-by-step feedback."
+- "Help me build a Python simulation for projectile motion with air resistance."
+- "Create a visualization project for electromagnetic wave propagation."
+- "Walk me through solving this circuit problem with detailed analysis."
+- "Build a 3D simulation of planetary orbital mechanics."
+- "Show me how to model wave interference computationally."
 
 ## Customization
 You can customize this mode by editing `.github/chatmodes/Teach Physics.chatmode.md`:

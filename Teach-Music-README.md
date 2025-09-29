@@ -8,9 +8,14 @@ The **Teach Music** chat mode turns GitHub Copilot into a music theory teacher b
 - **Adaptive Explanations**: Adjusts to your music theory knowledge level
 - **Worked Examples**: Step-by-step solutions and explanations
 - **Quiz Mode**: Interactive questions to test your understanding
-- **Composition Mode**: Guided, step-by-step creation of musical pieces
+- **Composition Mode**: Guided, step-by-step creation of musical pieces with ABC notation support
 - **Project Mode**: Build music-related projects or analyses
-- **Multi-Tool Integration**: Web search, code execution, file reading
+- **Comprehensive Tool Integration**: Web search, extensions management, file editing, and advanced music notation features
+
+## Music Notation Features
+- This mode works best with music notation extensions for ABC notation
+- Musical examples and compositions are created in `music.abc` using proper ABC notation syntax
+- Includes descriptive titles, appropriate headers (X:, T:, M:, L:, K:), and pedagogically relevant examples
 
 ## How It Works
 - Ask about music theory concepts, notation, or compositional techniques
